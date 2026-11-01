@@ -1,0 +1,12 @@
+{
+    "name": "oniguruma",
+    "url": "https://github.com/kkos/oniguruma",
+    "license": "BSD",
+    "tags": ["regex", "oniguruma", "textmate", "unicode", "cross"],
+    "description": "Pure Haxe port of the Oniguruma 6.9.8 regex engine, with the API of vscode-oniguruma 2.0.1.",
+    "version": "0.1.0",
+    "classPath": "src",
+    "releasenote": "Initial port of Oniguruma 6.9.8 and vscode-oniguruma 2.0.1.",
+    "contributors": ["jeremyfa"],
+    "dependencies": {}
+}

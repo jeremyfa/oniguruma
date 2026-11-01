@@ -1,0 +1,7 @@
+# Builds the benchmark to JavaScript (node bin/bench.js fixtures)
+-cp ../src
+-cp src
+-main Bench
+-D analyzer-optimize
+-dce full
+-js bin/bench.js

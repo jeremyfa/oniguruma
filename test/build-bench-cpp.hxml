@@ -1,0 +1,7 @@
+# Builds the benchmark with hxcpp (bin/bench-cpp/Bench fixtures)
+-cp ../src
+-cp src
+-main Bench
+-D analyzer-optimize
+-D HXCPP_M64
+-cpp bin/bench-cpp
