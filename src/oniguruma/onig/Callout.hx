@@ -97,7 +97,7 @@ class Callout {
         if (nameIds != null) return;
         nameIds = new Map();
         nameList = [new CalloutNameListEntry()];
-        inline function v(f:OnigValue->Void):OnigValue {
+        inline function v(f:(OnigValue) -> Void):OnigValue {
             var x = new OnigValue();
             f(x);
             return x;
